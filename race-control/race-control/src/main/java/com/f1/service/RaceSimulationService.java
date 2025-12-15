@@ -14,7 +14,7 @@ import java.util.List;
 public class RaceSimulationService {
 
     private final DriverRaceStateRepository stateRepository;
-    
+
     public List<DriverRaceState> simulateLap(){
         List<DriverRaceState> states = stateRepository.findAll();
 
