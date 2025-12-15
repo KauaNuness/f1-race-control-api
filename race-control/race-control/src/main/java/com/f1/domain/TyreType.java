@@ -1,4 +1,7 @@
 package com.f1.domain;
 
-public class TyreType {
+public enum TyreType {
+    SOFT,
+    MEDIUM,
+    HARD
 }
